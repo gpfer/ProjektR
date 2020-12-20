@@ -4,7 +4,6 @@ from __future__ import (
 import cv2 as cv
 import numpy as np
 
-
 def show(final):
     print('display')
     cv.imshow('Temple', final)
@@ -30,3 +29,5 @@ def white_balance_loops(img):
 
 final = np.hstack((img, white_balance_loops(img)))
 show(final)
+
+# check open cv impl

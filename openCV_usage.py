@@ -30,4 +30,4 @@ def white_balance_loops(img):
 final = np.hstack((img, white_balance_loops(img)))
 show(final)
 
-# check open cv impl
+# check open cv implementation
